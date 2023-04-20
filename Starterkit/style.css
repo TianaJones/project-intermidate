@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+  list-style: none;
+  
+}
+
+
+
+
+.link a{
+  text-decoration: none;
+  color: black;
+
+}
+nav{
+background-color: rgb(243, 239, 239);
+color: black;
+text-decoration: none;
+/* - Grayish Blue: hsl(216, 30%, 68%); */
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.insur{
+  background-color: midnightblue;
+  display: flex;
+  align-items: center;
+  height: 60vh;
+  color: white;
+  justify-content: space-around;
+  
+}
+.insur input{
+  width: 100px;
+  height: 50px;
+  
+}
+.nel{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 300px;
+  height: 40%;
+  
+}
+img{
+  margin-top: 200px;
+  height: 85%;
+  margin-right: 5%;
+  
+}
+.diff{
+  margin-top: 250px;
+}
+.cards{
+  margin-top:25px;
+  display:flex;
+  justify-content: space-around;
+  }
+  .card{
+    display:flex;
+    flex-direction: column;
+    width: 10px;
+    gap :150px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-around;
+  }
+  
+  .nil{
+    background-color: midnightblue;
+    color: white;
+    width: 70%;
+    height: 150px;
+    margin-top: 70px;
+    margin-left: 100px;
+    padding-top: 10px;
+  }
+  .nil h1{
+    margin-top: 20px;
+    margin-left: 20px;
+
+  }
+  .nil input{
+    width: 100px;
+    height: 30px;
+    margin-left: 800px;
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    margin-top: 40px;
+  }
+  .nat{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .net{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .net h2{
+    margin: 7px
+  }
+  .net a{
+    text-decoration: none;
+    color: black;
+    margin: 5px
+  }
+  .nit{
+    display: flex;
+    justify-content: space-between;
+  }
+  .nit > h1, div{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .nit div svg{
+    margin: 10px;
+  }
+
+
+/* ### Neutral
+
+- Very Dark Violet: hsl(270, 9%, 17%)
+- Dark Grayish Violet: hsl(273, 4%, 51%)
+- Very Light Gray: hsl(0, 0%, 98%)
+ */
+/* - Family: [DM Serif Display](https://fonts.google.com/specimen/DM+Serif+Display)
+- Weights: 400
+
+### Body
+
+- Family: [Karla](https://fonts.google.com/specimen/Karla)
+- Weights: 400, 700 */
+
+/* font-family: 'DM Serif Display', serif;
+font-family: 'Karla', sans-serif; */
+
+/* ### hr
+  border: 3px solid wheat;
+  color: white; */
+
